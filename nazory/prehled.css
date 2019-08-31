@@ -1,70 +1,11 @@
+@import"../menu.css";
 body {
-	margin: 0px;
-	background-color: #252525;
 	background-image: url("../backgrounds/shades.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
-
-a {	
-	text-decoration: none;
-	color: white;
-	margin: 0;
-}
-
-.story img {
-	max-width: 50vw;
-	padding-top: 2em;
-}
-
-.template {
-	display: grid;
-	grid-row-columns: 3fr 1fr 6fr 1fr;
-	grid-row-gap: 0.5em;
-	justify-items: stretch;
-	text-align: center;
-}
-
-.menu {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	background-color: black;
-	font-size: 5vh;
-	opacity: 0.8;
-	padding: 0.1em 0.3em;
-}
-
-#index {
-	text-align: left;
-}
-
-#insta {
-	text-align: right;
-}
-.content {
-	display: grid;
-	grid-template-columns: 1fr;
-	justify-items: stretch;
-	grid-row-gap: 1.5em;
-}
-
-p {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
-
 #main-title {
-	margin: 0px;
 	color: white;
 }
-
 .header {
-	margin: 0px;
-	border: 0px;
-	padding: 0px;
-	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
 	font-size: 15vw;
 	padding: 0.7em 0em;
 }
@@ -74,54 +15,15 @@ p {
     color: #9b111e;
 }
 
-.footer {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	background-color: #222222;
-	text-align: center;
-	color: white;
-	font-family: "Times New Roman", Times, serif;
-	align-items: end;
-	position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;   
-    padding: 0.5em 0em;
-}
-
-#main-footer {
-	color: white;
-	opacity: 1;
-}
-
-#last_page {
-	padding-bottom: 10em;
-}
-
 @media screen and (min-aspect-ratio: 4/3) {
     body {        
     }
 
-    .story img {
-		max-width: 12vw;
-	}
-
 	.header {
-		font-size: 9vw;
 		padding: 0.4em 0em;
-	}
-	.menu {
-		font-size: 4vh;
 	}
 
     .content {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	justify-items: center;
-	}
-
-	.footer{
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
