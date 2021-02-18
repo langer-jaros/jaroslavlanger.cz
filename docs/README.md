@@ -8,3 +8,4 @@ I am going to be a writer once.
 
 Until that day I am going to write some code and get money for it.
 
+* [../docs/index.md](../docs/index.md)

@@ -12,3 +12,4 @@ Be well, be safe.
 
 - [jaroslavlanger.cz](../www/index.html)
 
+* [README](./README.md)
